@@ -47,5 +47,5 @@ async function main() {
  myCar.drive(50);
  myCar.stopEngine();
 
- output('Odometer reading: ${myCar.odometer}km');
+ output(`Odometer reading: ${myCar.odometer}km`);
 }
