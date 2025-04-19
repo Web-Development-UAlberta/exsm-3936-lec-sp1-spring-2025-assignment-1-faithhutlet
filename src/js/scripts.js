@@ -7,6 +7,14 @@ async function main() {
     this.odometer = 0;
     this.engine = new engine(engine);
   }
+
+  startEngine(){
+    this.engine.start();
+  }
+  stopEngine(){
+    this.engine.stop();
+  }
+
  }
 
  class Engine{
