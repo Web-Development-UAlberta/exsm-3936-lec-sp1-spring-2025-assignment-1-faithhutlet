@@ -1,0 +1,2 @@
+Car Generator
+This project is a object-orientated car generator that simulates a car and it's engine using Javascript. It shows how to use classes, methods, constructors, and basic error handling. This project has two classes, Car and Engine and methods to start/stop the engine, drive the car and increase odometer and a method to output the car state as JSON. 
