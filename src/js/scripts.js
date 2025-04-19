@@ -48,4 +48,7 @@ async function main() {
  myCar.stopEngine();
 
  output(`Odometer reading: ${myCar.odometer}km`);
+ 
+ JSONcar = JSON.stringify(myCar);
+ output(JSONcar);
 }
